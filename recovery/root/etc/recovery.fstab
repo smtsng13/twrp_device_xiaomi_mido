@@ -1,9 +1,9 @@
 # mmcblk0p1
-/firmware			vfat		/dev/block/bootdevice/by-name/modem				flags=display="firmware";backup=1;mounttodecrypt
+/firmware     vfat		/dev/block/bootdevice/by-name/modem				flags=display="firmware";backup=1;mounttodecrypt
 /modem				emmc        /dev/block/bootdevice/by-name/modem				flags=display="modem";backup=1
 
 # mmcblk0p2
-/fsc				emmc	    /dev/block/bootdevice/by-name/fsc				flags=display="fsc";backup=1
+/fsc          emmc	    /dev/block/bootdevice/by-name/fsc				flags=display="fsc";backup=1
 
 # mmcblk0p3
 /ssd				emmc		/dev/block/bootdevice/by-name/ssd				flags=display="ssd";backup=1
@@ -74,11 +74,11 @@
 
 # mmcblk0p25
 /cache              ext4        /dev/block/bootdevice/by-name/cache         	flags=display="cache";backup=0;wipeingui
-/cache_image		emmc		/dev/block/bootdevice/by-name/cache				flags=backup=0
+/cache_image      emmc		/dev/block/bootdevice/by-name/cache				flags=backup=0
 
 # mmcblk0p26
 /persist            ext4        /dev/block/bootdevice/by-name/persist       	flags=display="persist";backup=1;wipeingui
-/persist_image		emmc        /dev/block/bootdevice/by-name/persist			flags=backup=0
+/persist_image    emmc        /dev/block/bootdevice/by-name/persist			flags=backup=0
 
 # mmcblk0p27
 /misc               emmc        /dev/block/bootdevice/by-name/misc          	flags=display="misc";backup=1
